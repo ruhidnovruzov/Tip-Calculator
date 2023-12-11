@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background: #343A40;
+    padding-top: 50px;
+}
+.container{
+    width: 35%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: #CED4DA;
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.dollar-icon{
+    display: inline-block;
+    padding: 12px;
+    background-color: #E9ECEF;
+    border-radius: 3px;
+    border: 1px solid #CED4DA;
+}
+#number{
+    height: 43px;
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid #CED4DA;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+#range{
+    width: 83%;
+}
+.range{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 40px;
+}
+.line{
+    height: 1px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #CED4DA;
+    margin-bottom: 30px;
+}
+#value-range{
+    display: inline-block;
+    padding: 10px;
+    background-color: #E9ECEF;
+    border-radius: 3px;
+    border: 1px solid #CED4DA;
+}
+
+.result{
+    display: none;
+}
+
+.tip-amount{
+    display: inline-block;
+    padding: 10px;
+    background-color: #E9ECEF;
+    border-radius: 3px;
+    border: 1px solid #CED4DA;
+}
+#result{
+    height: 43px;
+    width: 77%;
+    border-radius: 3px;
+    border: 1px solid #CED4DA;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.new{
+    display: inline-block;
+    padding: 10px;
+    background-color: #E9ECEF;
+    border-radius: 3px;
+    border: 1px solid #CED4DA;
+}
+#new-result{
+    height: 42px;
+    width: 68%;
+    border-radius: 3px;
+    border: 1px solid #CED4DA;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 90%;
+    }
+    #number{
+        height: 43px;
+        width: 86%;
+    }
+    #result{
+        height: 43px;
+        width: 63%;
+    }
+    #new-result{
+        width: 49%;
+    }
+    
+}
